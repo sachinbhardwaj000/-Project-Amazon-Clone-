@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Smart Watch",
+    "price": 89.99,
+    "image": "⌚",
+    "imageUrl": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=900&q=80",
+    "description": "Track your fitness and stay connected",
+    "category": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Noise Cancelling Headphones",
+    "price": 149,
+    "image": "🎧",
+    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80",
+    "description": "Immersive sound for work and play",
+    "category": "Electronics"
+  },
+  {
+    "id": 3,
+    "name": "LED Desk Lamp",
+    "price": 39.5,
+    "image": "💡",
+    "imageUrl": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=900&q=80",
+    "description": "Adjustable light for focused work",
+    "category": "Home"
+  },
+  {
+    "id": 4,
+    "name": "Wireless Mouse",
+    "price": 24.99,
+    "image": "🖱️",
+    "imageUrl": "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=900&q=80",
+    "description": "Comfortable and precise everyday use",
+    "category": "Electronics"
+  },
+  {
+    "id": 5,
+    "name": "Sculpted Throw Blanket",
+    "price": 49.99,
+    "image": "🛋️",
+    "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=900&q=80",
+    "description": "Soft texture for cozy evenings at home",
+    "category": "Home"
+  },
+  {
+    "id": 6,
+    "name": "Minimalist Tote Bag",
+    "price": 34.5,
+    "image": "👜",
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
+    "description": "A polished everyday accessory for errands and travel",
+    "category": "Fashion"
+  },
+  {
+    "id": 7,
+    "name": "Glow Serum",
+    "price": 29.99,
+    "image": "🧴",
+    "imageUrl": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=900&q=80",
+    "description": "Hydrating serum for a radiant complexion",
+    "category": "Beauty"
+  },
+  {
+    "id": 8,
+    "name": "Linen Shirt",
+    "price": 54,
+    "image": "👕",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80",
+    "description": "Lightweight style for warm days and travel",
+    "category": "Fashion"
+  }
+]

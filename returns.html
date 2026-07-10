@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Returns</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <a href="index.html" class="brand">amazon</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="orders.html">Orders</a>
+        <a href="cart.html" class="cart-link">🛒 <span id="cart-count">0</span></a>
+        <a href="support-portal.html" id="support-link" class="nav-link" style="display: none;">Support</a>
+        <span id="admin-badge" class="admin-badge" style="display: none;">Admin</span>
+      </nav>
+    </header>
+
+    <main class="cart-page">
+      <div class="page-nav">
+        <a href="orders.html">← Back to orders</a>
+      </div>
+      <div class="summary-card">
+        <h2>Returns center</h2>
+        <p>Track return requests and refund progress for your orders.</p>
+        <div class="returns-toolbar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="pending">Pending</button>
+          <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+        <div id="returns-container" class="cart-list"></div>
+      </div>
+    </main>
+
+    <script src="returns.js"></script>
+  </body>
+</html>

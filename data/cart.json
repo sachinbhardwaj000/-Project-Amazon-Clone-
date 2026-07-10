@@ -1,0 +1,23 @@
+[
+  {
+    "id": 8,
+    "name": "Linen Shirt",
+    "price": 54,
+    "image": "👕",
+    "quantity": 1
+  },
+  {
+    "id": 7,
+    "name": "Glow Serum",
+    "price": 29.99,
+    "image": "🧴",
+    "quantity": 1
+  },
+  {
+    "id": 4,
+    "name": "Wireless Mouse",
+    "price": 24.99,
+    "image": "🖱️",
+    "quantity": 1
+  }
+]

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="brand">amazon</div>
+      <div class="search-box">
+        <input id="header-search" type="text" placeholder="Search Amazon" />
+        <button>🔍</button>
+      </div>
+      <nav class="nav-links">
+        <a href="auth.html">Sign In</a>
+        <a href="returns.html">Returns</a>
+        <a href="orders.html">Orders</a>
+        <a href="cart.html" class="cart-link">🛒 <span id="cart-count">0</span></a>
+        <a href="support-portal.html" id="support-link" class="nav-link" style="display: none;">Support</a>
+        <span id="admin-badge" class="admin-badge" style="display: none;">Admin</span>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Prime Day Deals</p>
+          <h1>Upgrade your everyday essentials</h1>
+          <p>Discover gadgets, home upgrades, and fashion picks at low prices.</p>
+          <button>Shop now</button>
+        </div>
+      </section>
+
+      <section class="categories">
+        <h2>Shop by category</h2>
+        <div class="card-grid">
+          <button class="mini-card category-card category-btn active" data-category="all" data-page="all">
+            <img class="category-thumb" src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80" alt="All products" />
+            <div class="category-body">
+              <h3>All Products</h3>
+              <p>Browse everything in one place</p>
+            </div>
+          </button>
+          <button class="mini-card category-card category-btn" data-category="Electronics" data-page="electronics">
+            <img class="category-thumb" src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" alt="Electronics" />
+            <div class="category-body">
+              <h3>Electronics</h3>
+              <p>Phones, audio, and smart gear</p>
+            </div>
+          </button>
+          <button class="mini-card category-card category-btn" data-category="Home" data-page="home">
+            <img class="category-thumb" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80" alt="Home" />
+            <div class="category-body">
+              <h3>Home</h3>
+              <p>Comfort and decor upgrades</p>
+            </div>
+          </button>
+          <button class="mini-card category-card category-btn" data-category="Fashion" data-page="fashion">
+            <img class="category-thumb" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80" alt="Fashion" />
+            <div class="category-body">
+              <h3>Fashion</h3>
+              <p>Everyday essentials and trends</p>
+            </div>
+          </button>
+          <button class="mini-card category-card category-btn" data-category="Beauty" data-page="beauty">
+            <img class="category-thumb" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=80" alt="Beauty" />
+            <div class="category-body">
+              <h3>Beauty</h3>
+              <p>Skincare, fragrance, and self-care</p>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      <section class="featured-banner" id="category-featured-banner">
+        <p class="eyebrow">Featured for this category</p>
+        <h3>All Products</h3>
+        <p>Discover our most-loved picks across every category.</p>
+      </section>
+
+      <section class="products" id="products">
+        <h2>Featured products</h2>
+        <div class="product-grid" id="product-grid"></div>
+      </section>
+
+      <section class="deal-banner">
+        <h2>Limited offer: free shipping on orders over $35</h2>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Amazon Clone Demo</p>
+    </footer>
+
+    <div id="toast" class="toast">Item added to cart</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

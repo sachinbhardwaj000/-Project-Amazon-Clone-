@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login or Register</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <a href="index.html" class="brand">amazon</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="cart.html" class="cart-link">🛒 <span id="cart-count">0</span></a>
+      </nav>
+    </header>
+
+    <main class="detail-page">
+      <div class="page-nav">
+        <a href="index.html">← Back to home</a>
+      </div>
+
+      <div class="detail-card" style="max-width: 520px; margin: 0 auto;">
+        <div id="auth-message" class="empty-state"></div>
+        <form id="auth-form" class="cart-list">
+          <input id="name" type="text" placeholder="Your name" style="padding: 10px; border: 1px solid #ddd; border-radius: 8px;" />
+          <input id="email" type="email" placeholder="Email" required style="padding: 10px; border: 1px solid #ddd; border-radius: 8px;" />
+          <input id="password" type="password" placeholder="Password" required style="padding: 10px; border: 1px solid #ddd; border-radius: 8px;" />
+          <label class="admin-toggle">
+            <input id="is-admin" type="checkbox" />
+            <span>I’m a support admin</span>
+          </label>
+          <input id="admin-code" type="password" placeholder="Support code" style="display: none; padding: 10px; border: 1px solid #ddd; border-radius: 8px;" />
+          <div class="detail-actions">
+            <button class="add-btn" type="submit">Login / Register</button>
+            <button class="btn-secondary" type="button" id="toggle-mode">Switch to Register</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script src="auth.js"></script>
+  </body>
+</html>

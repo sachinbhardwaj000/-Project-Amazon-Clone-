@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support Portal</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <a href="index.html" class="brand">amazon</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="orders.html">Orders</a>
+        <a href="returns.html">Returns</a>
+        <a href="cart.html" class="cart-link">🛒 <span id="cart-count">0</span></a>
+        <span id="admin-badge" class="admin-badge" style="display: none;">Admin</span>
+      </nav>
+    </header>
+
+    <main class="cart-page">
+      <div class="page-nav">
+        <a href="index.html">← Back to store</a>
+      </div>
+
+      <section class="summary-card admin-dashboard">
+        <h2>Support portal</h2>
+        <p>Monitor return activity, review order issues, and keep refund work moving.</p>
+        <div class="stats-grid" id="portal-stats"></div>
+      </section>
+
+      <section class="card-grid" style="margin-top: 16px;">
+        <a class="mini-card category-card" href="orders.html">
+          <div class="category-body">
+            <h3>Orders</h3>
+            <p>Review order status and shipping updates.</p>
+          </div>
+        </a>
+        <a class="mini-card category-card" href="returns.html">
+          <div class="category-body">
+            <h3>Returns</h3>
+            <p>Approve, reject, or refund return requests.</p>
+          </div>
+        </a>
+        <a class="mini-card category-card" href="orders.html">
+          <div class="category-body">
+            <h3>Refunds</h3>
+            <p>Confirm completed refunds and follow outcomes.</p>
+          </div>
+        </a>
+      </section>
+    </main>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="support-portal.js"></script>
+  </body>
+</html>
